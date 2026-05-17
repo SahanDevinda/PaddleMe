@@ -1,6 +1,10 @@
-B001|Raleigh Tomahawk|TomaHawk|1000.0|false|MOUNTAIN
-B002|Urban Glide|Scott|1200.0|true|CITY
-B003|Metro Glide|Bianca|1800.0|true|CITY
-B004|Zip|Lumala|850.0|true|CITY
-B005|Trailblazer|Tomahawk|2000.0|true|MOUNTAIN
-B006|Apex|Tomahawk|1900.0|true|MOUNTAIN
+B001|Raleigh Tomahawk|TomaHawk|400.0|false|MOUNTAIN
+B002|Urban Glide|Scott|300.0|true|CITY
+B003|Metro Glide|Bianca|200.0|true|CITY
+B004|Zip|Lumala|350.0|true|CITY
+B005|Trailblazer|Tomahawk|800.0|true|MOUNTAIN
+B006|Apex|Tomahawk|850.0|true|MOUNTAIN
+B007|EagleWay|Tomahawk|700.0|true|MOUNTAIN
+B008|Speedster|Scott|450.0|true|ROAD
+B009|Thunderbolt|Lumala|500.0|false|MOUNTAIN
+B010|City Rider|Bianca|250.0|true|CITY
