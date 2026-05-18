@@ -1,49 +1,27 @@
-# Controller and UI Module
+# Bike Management Module
 
-This extracted project contains the Controller and UI layer of the Bike Ride Platform.
+The Bike Management part of the PaddleMe.
+IT25101674 - W.A.S. Devinda
 
 ## Main Responsibility
 
-The controller/UI module connects user requests to backend services and displays the result through JSP pages.
+The bike module allows admins to add, view, edit, and delete bikes. It also allows users to view available bikes.
 
-## Main Controller Files
+## OOP Concepts included in this class
 
-- `src/main/java/com/bikeride/controller/UserController.java`
+- Encapsulation: bike fields are private and accessed through getters and setters.
+- Abstraction: `Bike` is an abstract class.
+- Inheritance: `CityBike` and `MountainBike` extend `Bike`.
+- Polymorphism: each bike type implements `getBikeDescription()` differently.
+  
+## Main Files
+
+- `src/main/java/com/bikeride/model/Bike.java`
+- `src/main/java/com/bikeride/model/CityBike.java`
+- `src/main/java/com/bikeride/model/MountainBike.java`
+- `src/main/java/com/bikeride/service/BikeService.java`
 - `src/main/java/com/bikeride/controller/BikeController.java`
-- `src/main/java/com/bikeride/controller/ReservationController.java`
-
-## Main UI Files
-
-- `src/main/webapp/WEB-INF/views/home.jsp`
-- `src/main/webapp/WEB-INF/views/login.jsp`
-- `src/main/webapp/WEB-INF/views/register.jsp`
-- `src/main/webapp/WEB-INF/views/updateUser.jsp`
-- `src/main/webapp/WEB-INF/views/userList.jsp`
-- `src/main/webapp/WEB-INF/views/adminDashboard.jsp`
 - `src/main/webapp/WEB-INF/views/bikeList.jsp`
 - `src/main/webapp/WEB-INF/views/bikeRegister.jsp`
-- `src/main/webapp/WEB-INF/views/reserve.jsp`
-- `src/main/webapp/WEB-INF/views/myReservations.jsp`
-- `src/main/webapp/WEB-INF/views/contact.jsp`
-- `src/main/webapp/WEB-INF/views/navbar.jsp`
 
-## Support Files
 
-Model and service classes are included because controllers need them to compile and run. The main viva responsibility is the MVC controller flow and JSP user interface.
-
-## Viva Points
-
-- Controllers handle HTTP requests using `@GetMapping` and `@PostMapping`.
-- Controllers pass data to JSP pages using the `Model` object.
-- `HttpSession` is used to track the logged-in user.
-- JSP pages display backend data and forms to the user.
-- This follows MVC: Model classes store data, Service classes handle logic, Controllers connect backend logic to views, and JSP files display the UI.
-
-## Suggested Branch
-
-```bash
-git checkout -b feature/controller-ui
-git add .
-git commit -m "Add controller and UI module"
-git push origin feature/controller-ui
-```
