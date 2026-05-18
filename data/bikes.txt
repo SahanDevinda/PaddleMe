@@ -1,0 +1,6 @@
+B001|Raleigh Tomahawk|TomaHawk|1000.0|false|MOUNTAIN
+B002|Urban Glide|Scott|1200.0|true|CITY
+B003|Metro Glide|Bianca|1800.0|true|CITY
+B004|Zip|Lumala|850.0|true|CITY
+B005|Trailblazer|Tomahawk|2000.0|true|MOUNTAIN
+B006|Apex|Tomahawk|1900.0|true|MOUNTAIN
