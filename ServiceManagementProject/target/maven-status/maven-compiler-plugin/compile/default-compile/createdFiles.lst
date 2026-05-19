@@ -1,0 +1,12 @@
+com\bikeride\service\BikeService.class
+com\bikeride\model\Reservation.class
+com\bikeride\model\MountainBike.class
+com\bikeride\model\CityBike.class
+com\bikeride\service\ReservationService.class
+com\bikeride\ServletInitializer.class
+com\bikeride\model\User.class
+com\bikeride\BikeRideApplication.class
+com\bikeride\model\RegularUser.class
+com\bikeride\model\Bike.class
+com\bikeride\service\UserService.class
+com\bikeride\model\AdminUser.class

@@ -1,0 +1,3 @@
+A001|Sahan|devindadec2004@gmail.com|Mission.admin|ADMIN
+U002|Devinda|devindadec2004@gmail.com|Mission.devinda|REGULAR
+A003|test|devindadec2004@gmail.com|Mission.bikeride|ADMIN
